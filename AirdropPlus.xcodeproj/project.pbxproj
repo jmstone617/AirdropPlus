@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0C7C9D19132CA70019B74B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7C9C19132CA70019B74B /* Foundation.framework */; };
+		CB0C7C9F19132CA70019B74B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7C9E19132CA70019B74B /* CoreGraphics.framework */; };
+		CB0C7CA119132CA70019B74B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CA019132CA70019B74B /* UIKit.framework */; };
+		CB0C7CA719132CA70019B74B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CA519132CA70019B74B /* InfoPlist.strings */; };
+		CB0C7CA919132CA70019B74B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CA819132CA70019B74B /* main.m */; };
+		CB0C7CAD19132CA70019B74B /* ADPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CAC19132CA70019B74B /* ADPAppDelegate.m */; };
+		CB0C7CB019132CA70019B74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CAE19132CA70019B74B /* Main.storyboard */; };
+		CB0C7CB319132CA70019B74B /* ADPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CB219132CA70019B74B /* ADPViewController.m */; };
+		CB0C7CB519132CA70019B74B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CB419132CA70019B74B /* Images.xcassets */; };
+		CB0C7CBC19132CA70019B74B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CBB19132CA70019B74B /* XCTest.framework */; };
+		CB0C7CBD19132CA70019B74B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7C9C19132CA70019B74B /* Foundation.framework */; };
+		CB0C7CBE19132CA70019B74B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CA019132CA70019B74B /* UIKit.framework */; };
+		CB0C7CC619132CA80019B74B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CC419132CA80019B74B /* InfoPlist.strings */; };
+		CB0C7CC819132CA80019B74B /* AirdropPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CC719132CA80019B74B /* AirdropPlusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0C7CBF19132CA70019B74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0C7C9119132CA70019B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0C7C9819132CA70019B74B;
+			remoteInfo = AirdropPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB0C7C9919132CA70019B74B /* AirdropPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirdropPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0C7C9C19132CA70019B74B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB0C7C9E19132CA70019B74B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB0C7CA019132CA70019B74B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB0C7CA419132CA70019B74B /* AirdropPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirdropPlus-Info.plist"; sourceTree = "<group>"; };
+		CB0C7CA619132CA70019B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB0C7CA819132CA70019B74B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB0C7CAA19132CA70019B74B /* AirdropPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirdropPlus-Prefix.pch"; sourceTree = "<group>"; };
+		CB0C7CAB19132CA70019B74B /* ADPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADPAppDelegate.h; sourceTree = "<group>"; };
+		CB0C7CAC19132CA70019B74B /* ADPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADPAppDelegate.m; sourceTree = "<group>"; };
+		CB0C7CAF19132CA70019B74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB0C7CB119132CA70019B74B /* ADPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADPViewController.h; sourceTree = "<group>"; };
+		CB0C7CB219132CA70019B74B /* ADPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADPViewController.m; sourceTree = "<group>"; };
+		CB0C7CB419132CA70019B74B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB0C7CBA19132CA70019B74B /* AirdropPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirdropPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0C7CBB19132CA70019B74B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB0C7CC319132CA80019B74B /* AirdropPlusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirdropPlusTests-Info.plist"; sourceTree = "<group>"; };
+		CB0C7CC519132CA80019B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB0C7CC719132CA80019B74B /* AirdropPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirdropPlusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0C7C9619132CA70019B74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7C9F19132CA70019B74B /* CoreGraphics.framework in Frameworks */,
+				CB0C7CA119132CA70019B74B /* UIKit.framework in Frameworks */,
+				CB0C7C9D19132CA70019B74B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C7CB719132CA70019B74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CBC19132CA70019B74B /* XCTest.framework in Frameworks */,
+				CB0C7CBE19132CA70019B74B /* UIKit.framework in Frameworks */,
+				CB0C7CBD19132CA70019B74B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0C7C9019132CA70019B74B = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CA219132CA70019B74B /* AirdropPlus */,
+				CB0C7CC119132CA70019B74B /* AirdropPlusTests */,
+				CB0C7C9B19132CA70019B74B /* Frameworks */,
+				CB0C7C9A19132CA70019B74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0C7C9A19132CA70019B74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7C9919132CA70019B74B /* AirdropPlus.app */,
+				CB0C7CBA19132CA70019B74B /* AirdropPlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0C7C9B19132CA70019B74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7C9C19132CA70019B74B /* Foundation.framework */,
+				CB0C7C9E19132CA70019B74B /* CoreGraphics.framework */,
+				CB0C7CA019132CA70019B74B /* UIKit.framework */,
+				CB0C7CBB19132CA70019B74B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0C7CA219132CA70019B74B /* AirdropPlus */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CAB19132CA70019B74B /* ADPAppDelegate.h */,
+				CB0C7CAC19132CA70019B74B /* ADPAppDelegate.m */,
+				CB0C7CAE19132CA70019B74B /* Main.storyboard */,
+				CB0C7CB119132CA70019B74B /* ADPViewController.h */,
+				CB0C7CB219132CA70019B74B /* ADPViewController.m */,
+				CB0C7CB419132CA70019B74B /* Images.xcassets */,
+				CB0C7CA319132CA70019B74B /* Supporting Files */,
+			);
+			path = AirdropPlus;
+			sourceTree = "<group>";
+		};
+		CB0C7CA319132CA70019B74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CA419132CA70019B74B /* AirdropPlus-Info.plist */,
+				CB0C7CA519132CA70019B74B /* InfoPlist.strings */,
+				CB0C7CA819132CA70019B74B /* main.m */,
+				CB0C7CAA19132CA70019B74B /* AirdropPlus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB0C7CC119132CA70019B74B /* AirdropPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CC719132CA80019B74B /* AirdropPlusTests.m */,
+				CB0C7CC219132CA70019B74B /* Supporting Files */,
+			);
+			path = AirdropPlusTests;
+			sourceTree = "<group>";
+		};
+		CB0C7CC219132CA70019B74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CC319132CA80019B74B /* AirdropPlusTests-Info.plist */,
+				CB0C7CC419132CA80019B74B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0C7C9819132CA70019B74B /* AirdropPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0C7CCB19132CA80019B74B /* Build configuration list for PBXNativeTarget "AirdropPlus" */;
+			buildPhases = (
+				CB0C7C9519132CA70019B74B /* Sources */,
+				CB0C7C9619132CA70019B74B /* Frameworks */,
+				CB0C7C9719132CA70019B74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirdropPlus;
+			productName = AirdropPlus;
+			productReference = CB0C7C9919132CA70019B74B /* AirdropPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB0C7CB919132CA70019B74B /* AirdropPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0C7CCE19132CA80019B74B /* Build configuration list for PBXNativeTarget "AirdropPlusTests" */;
+			buildPhases = (
+				CB0C7CB619132CA70019B74B /* Sources */,
+				CB0C7CB719132CA70019B74B /* Frameworks */,
+				CB0C7CB819132CA70019B74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0C7CC019132CA70019B74B /* PBXTargetDependency */,
+			);
+			name = AirdropPlusTests;
+			productName = AirdropPlusTests;
+			productReference = CB0C7CBA19132CA70019B74B /* AirdropPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0C7C9119132CA70019B74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ADP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jordan Stone";
+				TargetAttributes = {
+					CB0C7CB919132CA70019B74B = {
+						TestTargetID = CB0C7C9819132CA70019B74B;
+					};
+				};
+			};
+			buildConfigurationList = CB0C7C9419132CA70019B74B /* Build configuration list for PBXProject "AirdropPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0C7C9019132CA70019B74B;
+			productRefGroup = CB0C7C9A19132CA70019B74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0C7C9819132CA70019B74B /* AirdropPlus */,
+				CB0C7CB919132CA70019B74B /* AirdropPlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0C7C9719132CA70019B74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CB519132CA70019B74B /* Images.xcassets in Resources */,
+				CB0C7CA719132CA70019B74B /* InfoPlist.strings in Resources */,
+				CB0C7CB019132CA70019B74B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C7CB819132CA70019B74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CC619132CA80019B74B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0C7C9519132CA70019B74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CB319132CA70019B74B /* ADPViewController.m in Sources */,
+				CB0C7CAD19132CA70019B74B /* ADPAppDelegate.m in Sources */,
+				CB0C7CA919132CA70019B74B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C7CB619132CA70019B74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CC819132CA80019B74B /* AirdropPlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB0C7CC019132CA70019B74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0C7C9819132CA70019B74B /* AirdropPlus */;
+			targetProxy = CB0C7CBF19132CA70019B74B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB0C7CA519132CA70019B74B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C7CA619132CA70019B74B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB0C7CAE19132CA70019B74B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C7CAF19132CA70019B74B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB0C7CC419132CA80019B74B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C7CC519132CA80019B74B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0C7CC919132CA80019B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB0C7CCA19132CA80019B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0C7CCC19132CA80019B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirdropPlus/AirdropPlus-Prefix.pch";
+				INFOPLIST_FILE = "AirdropPlus/AirdropPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB0C7CCD19132CA80019B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirdropPlus/AirdropPlus-Prefix.pch";
+				INFOPLIST_FILE = "AirdropPlus/AirdropPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB0C7CCF19132CA80019B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirdropPlus.app/AirdropPlus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirdropPlus/AirdropPlus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AirdropPlusTests/AirdropPlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB0C7CD019132CA80019B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirdropPlus.app/AirdropPlus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirdropPlus/AirdropPlus-Prefix.pch";
+				INFOPLIST_FILE = "AirdropPlusTests/AirdropPlusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0C7C9419132CA70019B74B /* Build configuration list for PBXProject "AirdropPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C7CC919132CA80019B74B /* Debug */,
+				CB0C7CCA19132CA80019B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0C7CCB19132CA80019B74B /* Build configuration list for PBXNativeTarget "AirdropPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C7CCC19132CA80019B74B /* Debug */,
+				CB0C7CCD19132CA80019B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB0C7CCE19132CA80019B74B /* Build configuration list for PBXNativeTarget "AirdropPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C7CCF19132CA80019B74B /* Debug */,
+				CB0C7CD019132CA80019B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB0C7C9119132CA70019B74B /* Project object */;
+}
