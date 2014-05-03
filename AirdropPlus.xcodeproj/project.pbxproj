@@ -14,13 +14,15 @@
 		CB0C7CA919132CA70019B74B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CA819132CA70019B74B /* main.m */; };
 		CB0C7CAD19132CA70019B74B /* ADPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CAC19132CA70019B74B /* ADPAppDelegate.m */; };
 		CB0C7CB019132CA70019B74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CAE19132CA70019B74B /* Main.storyboard */; };
-		CB0C7CB319132CA70019B74B /* ADPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CB219132CA70019B74B /* ADPViewController.m */; };
 		CB0C7CB519132CA70019B74B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CB419132CA70019B74B /* Images.xcassets */; };
 		CB0C7CBC19132CA70019B74B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CBB19132CA70019B74B /* XCTest.framework */; };
 		CB0C7CBD19132CA70019B74B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7C9C19132CA70019B74B /* Foundation.framework */; };
 		CB0C7CBE19132CA70019B74B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CA019132CA70019B74B /* UIKit.framework */; };
 		CB0C7CC619132CA80019B74B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CC419132CA80019B74B /* InfoPlist.strings */; };
 		CB0C7CC819132CA80019B74B /* AirdropPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CC719132CA80019B74B /* AirdropPlusTests.m */; };
+		CBC63676191407A000D15ECF /* ADPAssetShareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC63675191407A000D15ECF /* ADPAssetShareTableViewController.m */; };
+		CBC636781914A91300D15ECF /* rhodes.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC636771914A91300D15ECF /* rhodes.png */; };
+		CBC6367F1914AFE400D15ECF /* JSLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6367E1914AFE400D15ECF /* JSLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,17 @@
 		CB0C7CAB19132CA70019B74B /* ADPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADPAppDelegate.h; sourceTree = "<group>"; };
 		CB0C7CAC19132CA70019B74B /* ADPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADPAppDelegate.m; sourceTree = "<group>"; };
 		CB0C7CAF19132CA70019B74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB0C7CB119132CA70019B74B /* ADPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADPViewController.h; sourceTree = "<group>"; };
-		CB0C7CB219132CA70019B74B /* ADPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADPViewController.m; sourceTree = "<group>"; };
 		CB0C7CB419132CA70019B74B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB0C7CBA19132CA70019B74B /* AirdropPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirdropPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0C7CBB19132CA70019B74B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CB0C7CC319132CA80019B74B /* AirdropPlusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirdropPlusTests-Info.plist"; sourceTree = "<group>"; };
 		CB0C7CC519132CA80019B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB0C7CC719132CA80019B74B /* AirdropPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirdropPlusTests.m; sourceTree = "<group>"; };
+		CBC63674191407A000D15ECF /* ADPAssetShareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPAssetShareTableViewController.h; sourceTree = "<group>"; };
+		CBC63675191407A000D15ECF /* ADPAssetShareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPAssetShareTableViewController.m; sourceTree = "<group>"; };
+		CBC636771914A91300D15ECF /* rhodes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rhodes.png; sourceTree = "<group>"; };
+		CBC6367D1914AFE400D15ECF /* JSLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLoadingView.h; sourceTree = "<group>"; };
+		CBC6367E1914AFE400D15ECF /* JSLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,12 @@
 		CB0C7CA219132CA70019B74B /* AirdropPlus */ = {
 			isa = PBXGroup;
 			children = (
+				CBC636791914AA9700D15ECF /* Views */,
 				CB0C7CAB19132CA70019B74B /* ADPAppDelegate.h */,
 				CB0C7CAC19132CA70019B74B /* ADPAppDelegate.m */,
 				CB0C7CAE19132CA70019B74B /* Main.storyboard */,
-				CB0C7CB119132CA70019B74B /* ADPViewController.h */,
-				CB0C7CB219132CA70019B74B /* ADPViewController.m */,
+				CBC63674191407A000D15ECF /* ADPAssetShareTableViewController.h */,
+				CBC63675191407A000D15ECF /* ADPAssetShareTableViewController.m */,
 				CB0C7CB419132CA70019B74B /* Images.xcassets */,
 				CB0C7CA319132CA70019B74B /* Supporting Files */,
 			);
@@ -126,6 +132,7 @@
 		CB0C7CA319132CA70019B74B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBC636771914A91300D15ECF /* rhodes.png */,
 				CB0C7CA419132CA70019B74B /* AirdropPlus-Info.plist */,
 				CB0C7CA519132CA70019B74B /* InfoPlist.strings */,
 				CB0C7CA819132CA70019B74B /* main.m */,
@@ -150,6 +157,15 @@
 				CB0C7CC419132CA80019B74B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBC636791914AA9700D15ECF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBC6367D1914AFE400D15ECF /* JSLoadingView.h */,
+				CBC6367E1914AFE400D15ECF /* JSLoadingView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			files = (
 				CB0C7CB519132CA70019B74B /* Images.xcassets in Resources */,
 				CB0C7CA719132CA70019B74B /* InfoPlist.strings in Resources */,
+				CBC636781914A91300D15ECF /* rhodes.png in Resources */,
 				CB0C7CB019132CA70019B74B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB0C7CB319132CA70019B74B /* ADPViewController.m in Sources */,
+				CBC63676191407A000D15ECF /* ADPAssetShareTableViewController.m in Sources */,
 				CB0C7CAD19132CA70019B74B /* ADPAppDelegate.m in Sources */,
 				CB0C7CA919132CA70019B74B /* main.m in Sources */,
+				CBC6367F1914AFE400D15ECF /* JSLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +475,7 @@
 				CB0C7CCD19132CA80019B74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB0C7CCE19132CA80019B74B /* Build configuration list for PBXNativeTarget "AirdropPlusTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +484,7 @@
 				CB0C7CD019132CA80019B74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
